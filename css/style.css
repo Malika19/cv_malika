@@ -5557,6 +5557,7 @@ h2 {
 @media scren and (min-width: 375px) {
   .header {
     height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background.jpg);
   }
 }
 .text {
