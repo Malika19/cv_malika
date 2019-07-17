@@ -1,0 +1,364 @@
+body {
+
+    font-family: sans-serif;
+
+
+}
+
+.aly {
+    border-radius: 50%;
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1em;
+}
+
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+
+}
+
+.job__title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+
+h2 {
+    color: black;
+}
+
+
+.header {
+    height: 100vh;
+    background-image: url(../image/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.scroll__btn {
+    bottom: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    padding: 10px 10px 20px;
+    border-radius: 30%;
+}
+
+.scroll__bar span {
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 10px;
+}
+
+.scroll__bar {
+    animation: mover 1s alternate infinite;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+
+}
+
+.me {
+
+    font-size: 1rem;
+    text-transform: none;
+    line-height: 40px;
+    text-align: justify;
+
+
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+h3 {
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline:before {
+    content: '';
+    background: #555;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+
+}
+
+.timeline li {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.timeline li h4 {
+    background-color: grey;
+    padding: 5px 0 5px 20px;
+    font-size: 15px;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+@keyframes slideleft {
+    from {
+        position: relative;
+        right: 100vw;
+
+        width: 300%;
+    }
+
+    to {
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+}
+
+h1 {
+    animation-duration: 2s;
+    animation-name: slideleft;
+}
+
+
+.skills {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+
+.container {
+    width: 500%;
+
+}
+
+
+
+
+.col-md-6 {
+
+    padding-bottom: 100px;
+}
+
+i {
+    font-size: 5rem;
+    color: blue;
+}
+
+.bottom__skills {
+    text-align: center;
+}
+
+
+
+.services {
+    background-image: url(../image/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.contact {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 350px;
+    width: 100%;
+
+
+}
+
+.details {
+
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.skills {
+    color: white;
+
+}
+
+
+.main__skills {
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+}
+
+.main__skills {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
+
+.main__skills li {
+    list-style-type: none;
+    line-height: 30px;
+    
+
+}
+
+@media screen and (min-width:365px)
+
+{
+    .main__skills
+    {
+        font-size: 1Opx;
+
+    }
+}
+.me {
+
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+.techskills {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+
+.me {
+
+    line-height: 50px;
+    margin-bottom: 80px;
+
+}
+
+body {
+
+    background-color: beige;
+}
+
+.techskills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.time
+{
+    font-weight: bold;
+}
+
+#house
+
+{
+
+    color: #d9ff00;
+    font-size: 2rem;
+}
+
+#envelope
+
+{
+    color: #d9ff00;
+    font-size: 2rem;
+}
+
+#phone
+{
+
+    color: #d9ff00;
+    font-size: 2rem;
+}
+
+a
+{
+    color: white;
+}
