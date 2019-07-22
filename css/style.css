@@ -5504,7 +5504,7 @@ a.text-dark:hover, a.text-dark:focus {
 .nav__bar {
   top: 0;
   position: sticky;
-  z-index: 2;
+  z-index: 1;
 }
 
 .navbar {
